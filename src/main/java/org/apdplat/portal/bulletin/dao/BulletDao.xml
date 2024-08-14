@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-<mapper namespace="org.apdplat.portal.bulletin.dao.BulletDao">
-	<update id="update" parameterType="java.util.Map">
-        UPDATE PMRT.TAB_MRT_INTEGRAL_DEV_REPORT SET is_jf=#{is_jf},IS_DH='1' where fd_chnl_id=#{hq_code} and deal_date=#{month}
-    </update>
- 
-</mapper>
